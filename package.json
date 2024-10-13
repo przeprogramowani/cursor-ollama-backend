@@ -14,7 +14,7 @@
   ],
   "author": "Przeprogramowani.pl",
   "license": "ISC",
-  "description": "Ollama proxy for Cursor",
+  "description": "Ollama proxy for Cursor editor",
   "dependencies": {
     "axios": "^1.7.7",
     "express": "^4.21.1"

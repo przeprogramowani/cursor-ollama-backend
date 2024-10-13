@@ -17,6 +17,6 @@ npm install
 npm run start
 ```
 
-Once the app is running, you can override base url in Cursor with `https://localhost`.
+Once the app is running, you can override base url in Cursor with `https://localhost/v1`.
 
-To redirect Cursor requests to this proxy, you need to enable one of OpenAI models in Cursor settings. Then, when using Chat or inline edit, use newly enabled model to call this proxy.
+To redirect Cursor requests to this proxy, you need to enable one of OpenAI models in Cursor settings. The overwrite URL will be picked up automatically, redirecting all requests to this proxy and finally to Ollama.
