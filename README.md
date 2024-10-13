@@ -14,9 +14,9 @@ You can find the instructions in [CERT_README.md](./certificates/CERT_README.md)
 
 ```
 npm install
-npm run start
+npm start
 ```
 
 Once the app is running, you can override base url in Cursor with `https://localhost/v1`.
 
-To redirect Cursor requests to this proxy, you need to enable one of OpenAI models in Cursor settings. The overwrite URL will be picked up automatically, redirecting all requests to this proxy and finally to Ollama.
+To redirect Cursor requests to this proxy, you need to enable one of OpenAI models in Cursor settings and use them in the chat / inline edits. The overwrite URL will be picked up automatically, redirecting all requests to this proxy and finally to Ollama.
