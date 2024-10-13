@@ -1,0 +1,22 @@
+{
+  "name": "cursor-ollama-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "ollama",
+    "cursor",
+    "llm",
+    "express",
+    "proxy"
+  ],
+  "author": "Przeprogramowani.pl",
+  "license": "ISC",
+  "description": "Ollama proxy for Cursor",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "express": "^4.21.1"
+  }
+}
