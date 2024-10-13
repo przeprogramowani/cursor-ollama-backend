@@ -2,7 +2,7 @@
 
 ![](./_media/example.png)
 
-This is a simple API proxy for Ollama API that allows you to redirect Cursor requests to local models.
+This is a simple, fully-local API proxy for Ollama API that allows you to redirect Cursor requests to local models.
 
 ## Prerequisites
 
