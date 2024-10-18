@@ -6,6 +6,12 @@ This is a simple, fully-local API proxy for Ollama API that allows you to redire
 
 ## Prerequisites
 
+### Ollama
+
+You need to have Ollama installed and running on your local machine. You can find the instructions in [ollama](https://github.com/ollama/ollama).
+
+### Certificate
+
 You need to generate a self-signed SSL certificate to expose the API over HTTPS.
 
 You can find the instructions in [CERT_README.md](./certificates/CERT_README.md).
