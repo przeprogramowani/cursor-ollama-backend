@@ -10,6 +10,8 @@ This is a simple, fully-local API proxy for Ollama API that allows you to redire
 
 You need to have Ollama installed and running on your local machine. You can find the instructions in [ollama](https://github.com/ollama/ollama).
 
+Check if `ollama` is running by opening `http://localhost:11434/api/tags` in your browser. You should see the response from Ollama.
+
 ### Certificate
 
 You need to generate a self-signed SSL certificate to expose the API over HTTPS.
